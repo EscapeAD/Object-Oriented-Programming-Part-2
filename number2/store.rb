@@ -16,19 +16,30 @@ list1     = [book, music_cd, chocolate]
 list2     = [imported_beer, imported_prefume]
 list3     = [imported_beer, pills, imported_prefume]
 #Method
-puts "Welcome to the store - the list of geoceries"
 
 
 #initialize
+puts "===================================================="
+puts "===================================================="
 puts "Welcome to the store - the list of geoceries"
-puts "List 1"
+puts "Shopper List - List 1"
+puts "===================================================="
+
 
 adam_mart.total(list1)
-puts "==============================================="
-puts "==============================================="
+puts "===================================================="
+puts "===================================================="
+puts "Shopper List - List 2"
+puts "===================================================="
+
+
 adam_mart.total(list2)
-puts "==============================================="
-puts "==============================================="
+puts "===================================================="
+puts "===================================================="
+puts "Shopper List - List 3"
+puts "===================================================="
+
+
 adam_mart.total(list3)
 
 
